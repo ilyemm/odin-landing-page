@@ -56,14 +56,15 @@ body {
     padding: 0 140px;
 }
 
-.section {
-    height: 400px;
-}
-
 .header,
 .footer {
     height: 40px;
 } */
+
+.section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
 
 /* header */
 .header {
@@ -115,8 +116,6 @@ body {
     justify-content: space-between;
     align-items: center;
     gap: 30px;
-    padding-top: 100px;
-    padding-bottom: 100px;
 }
 
 .landing-text {
@@ -169,10 +168,12 @@ body {
     justify-content: center;
     align-items: center;
     gap: 30px;
+    text-align: center;
 }
 
 .information .info-cards {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     text-align: center;
     gap: 50px;
