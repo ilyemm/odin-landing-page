@@ -1,8 +1,11 @@
 /* setup */
-body {
+* {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
 
+body {
     font-family: "Roboto", sans-serif;
 
     --dark-bg-color: #1F2937;
@@ -15,7 +18,7 @@ body {
     --hero-secondary-font-size: 14px;
 
     --header-logo-font-color: #F9FAF8;
-    --header-logo-font-size: 22px;
+    --header-logo-font-size: 18px;
 
     --cta-btn-color: #3883F6;
 
@@ -47,7 +50,7 @@ body {
 }
 
 .section {
-    padding: 50px 100px;
+    padding: 50px 175px;
 }
 
 /* header */
@@ -56,7 +59,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 0 100px;
+    padding: 0 175px;
 }
 
 .header .logo {
@@ -137,4 +140,26 @@ body {
 
 .card p {
     margin: 0;
+}
+
+/* quote */ 
+
+.quote {
+    background-color: var(--quote-speaker-font-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote .quote-body {
+    margin: 0;
+    font-size: var(--quote-speaker-font-size);
+    font-style: var(--quote-speaker-font-style);
+    font-weight: var(--quote-speaker-font-weight);
+}
+
+.quote .quote-speaker {
+    margin: 0;
+    align-self: flex-end;
 }
