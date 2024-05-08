@@ -48,3 +48,32 @@ body {
     padding: 0 100px;
 }
 
+/* header */
+.header {
+    background-color: var(--dark-bg-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header .logo {
+    color: var(--header-logo-font-color);
+    font-size: var(--header-logo-font-size);
+    font-weight: 700;
+}
+
+.header .links {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
+
+.header .links a {
+    text-decoration: none;
+    color: var(--hero-secondary-font-color);
+    font-size: var(--hero-secondary-font-size);
+}
+
