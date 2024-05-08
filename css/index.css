@@ -51,16 +51,6 @@ body {
     border-radius: 10px;
 }
 
-/* .section,
-.header {
-    padding: 0 140px;
-}
-
-.header,
-.footer {
-    height: 40px;
-} */
-
 .section {
     padding-top: 100px;
     padding-bottom: 100px;
@@ -225,10 +215,10 @@ body {
 }
 
 .cta-body {
+    width: 80%;
     background-color: var(--cta-btn-color);
     border-radius: 6px;
-    width: 100%;
-    padding: 50px 100px;
+    padding: 50px;
     display: flex;
     justify-content: space-around;
     color: var(--header-logo-font-color);
@@ -259,4 +249,5 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 40px;
 }
