@@ -45,7 +45,7 @@ body {
 }
 
 .section {
-    padding: 0 100px;
+    padding: 100px;
 }
 
 /* header */
@@ -54,6 +54,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 0 100px;
 }
 
 .header .logo {
@@ -75,5 +76,40 @@ body {
     text-decoration: none;
     color: var(--hero-secondary-font-color);
     font-size: var(--hero-secondary-font-size);
+}
+
+/* landing */
+.landing {
+    height: 300px;
+    background-color: var(--dark-bg-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.landing-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.landing-text h1 {
+    margin: 0;
+    color: var(--hero-main-font-color);
+    font-size: var(--hero-main-font-size);
+}
+
+.landing-text p {
+    color: var(--hero-secondary-font-color);
+    font-size: var(--hero-secondary-font-size);
+}
+
+.landing button {
+    width: 100px;
+    height: 25px;
+    background-color: var(--cta-btn-color);
+    color: var(--header-logo-font-color);
+    border: none;
+    border-radius: 8px;
 }
 
