@@ -29,7 +29,7 @@ body {
     --quote-body-font-color: #1F2937;
 
     --quote-speaker-font-color: #E5E7EB;
-    --quote-speaker-font-size: 36px;
+    --quote-speaker-font-size: 28px;
     --quote-speaker-font-style: italic;
     --quote-speaker-font-weight: 100;
 }
@@ -50,7 +50,8 @@ body {
 }
 
 .section {
-    padding: 50px 175px;
+    height: 400px;
+    padding: 0 175px;
 }
 
 /* header */
@@ -122,6 +123,7 @@ body {
 .information {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     gap: 30px;
 }
@@ -146,6 +148,13 @@ body {
 
 .quote {
     background-color: var(--quote-speaker-font-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-content {
+    width: 600px;
     display: flex;
     flex-direction: column;
     justify-content: center;
